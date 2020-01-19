@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<!-- Liam Bigelow, LDB385, 11236174 -->
+	
+	<head>
+		<title> CMPT 350 COURSE TIME AND LOCATIONS </title>
+		<!-- using Sidebar, location funtion, and button -->
+		<link type="text/css" rel="stylesheet" href="./Scripts/sidebar.css" />
+		<link type="text/css" rel="stylesheet" href="./Scripts/button.css" />
+		<script type="text/javascript" src="./Scripts/location.js"></script>
+	</head>
+	
+	<br>
+	
+	<!-- Side navigation -->
+	<div class="sidenav">
+		<a href="./Cmpt350_Home.html">Home</a>
+		<a href="./Cmpt350_TimeLocation.html">Course Time <br>and Location</a>
+		<a href="./Cmpt350_Objectives.html">Course <br>Objectives</a>
+		<a href="./Cmpt350_GradingScheme.html">Grading <br> Scheme</a>
+	</div>
+
+	<!-- Page content -->
+	<div class="main">
+	
+		<img src="./Images/UofSCsss.png" alt="Usask Computer Science" width="750">
+		
+		<body>
+			<h2> Class Times </h2>
+			
+			<table>
+				<col width="100">
+				<col width="100">
+				<col width="100">
+				<col width="130">
+				<col width="160">
+				  
+				<tr>
+					<th align="center">Type</th>
+					<th align="center">Section</th>
+					<th align="center">Date</th>
+					<th align="center">Time</th>
+					<th align="center">Location</th>
+				</tr>
+				<tr>
+					<td align="center">LEC</td>
+					<td align="center">02</td>
+					<td align="center">MWF</td>
+					<td align="center">12:30pm - 01:20pm</td>
+					<td align="center"> <button onclick="getLocation('02')" class="btn small">Get Location</button> </td>
+				</tr>
+				<tr>
+					<td align="center">TUT</td>
+					<td align="center">T02</td>
+					<td align="center">M</td>
+					<td align="center">3:30pm - 04:20pm</td>
+					<td align="center"> <button onclick="getLocation('T02')" class="btn small">Get Location</button> </td>
+				</tr>
+				<tr>
+					<td align="center">TUT</td>
+					<td align="center">T04</td>
+					<td align="center">W</td>
+					<td align="center">10:30am - 11:20am</td>
+					<td align="center"> <button onclick="getLocation('T04')" class="btn small">Get Location</button> </td>
+				</tr>
+				<tr>
+					<td align="center">TUT</td>
+					<td align="center">06</td>
+					<td align="center">W</td>
+					<td align="center">04:30pm - 05:20pm</td>
+					<td align="center"> <button onclick="getLocation('T06')" class="btn small">Get Location</button> </td>
+				</tr>
+				<tr>
+					<td align="center">TUT</td>
+					<td align="center">T08</td>
+					<td align="center">R</td>
+					<td align="center">09:00am - 09:50am</td>
+					<td align="center"> <button onclick="getLocation('T08')" class="btn small">Get Location</button> </td>
+				</tr>
+			</table>
+			
+			<br>
+			<br>
+		</body>
+		
+	</div>
+	
+	<br>
+	<br>
+	<br>
+</html>

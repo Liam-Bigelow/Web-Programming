@@ -1,0 +1,17 @@
+
+.btn {
+	border: 2px solid #555555;
+	background-color: #4CAF50;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+}
+.btn:hover {background: #eee;}
+
+.default {color: black;}
+
+.small {
+	color: gray;
+	padding: 10px 30px;
+	font-size: 11px;
